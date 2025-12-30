@@ -1,50 +1,70 @@
-/* Mobile-first customizations */
+/* RESET DE ESPAÇAMENTOS GRANDES DO PICO */
+body {
+  margin: 0;
+}
 
-.site-header {
+/* APP TOMA A TELA INTEIRA */
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centraliza vertical */
+  align-items: center;       /* centraliza horizontal */
   text-align: center;
-  margin-bottom: 1.5rem;
+}
+
+/* HEADER COMPACTO */
+.site-header {
+  margin-bottom: 0.75rem;
 }
 
 .site-header h1 {
   margin-bottom: 0.25rem;
 }
 
+/* GRID DE CARDS */
 .cards-grid {
+  width: 100%;
+  max-width: 420px;
+
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
+/* CARD MAIS COMPACTO */
 .music-card {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
-.music-card .category {
-  text-transform: uppercase;
-  font-weight: 600;
+.category {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
   opacity: 0.7;
 }
 
-.music-card .song {
+.song {
   margin: 0.25rem 0;
+  font-size: 1rem;
 }
 
-.music-card .artist {
+.artist {
   margin: 0;
-  font-size: 0.95rem;
-  opacity: 0.85;
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
 
-.music-card .lyrics {
-  margin-top: 0.75rem;
+.lyrics {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
   font-style: italic;
 }
 
-.actions {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.actions button {
+/* BOTÃO FIXO NO FLUXO, MAS SEM ESTOURAR ALTURA */
+.new-card {
+  margin-top: 0.75rem;
   width: 100%;
+  max-width: 420px;
 }
