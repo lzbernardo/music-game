@@ -1,12 +1,72 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cartas Musicais</title>
+
+  <!-- Pico.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
+
+  <!-- Custom styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <script src="script.js" defer></script>
+
+  <main class="container">
+    <header class="site-header">
+      <h1>🎵 Cartas Musicais</h1>
+      <p>Descubra músicas para cantar</p>
+    </header>
+
+    <section class="cards-grid">
+
+      <article class="music-card">
+        <small class="category">Pop</small>
+        <h3 class="song">Leão</h3>
+        <p class="artist">Marília Mendonça</p>
+        <blockquote class="lyrics">
+          “Mas o amor não é pra quem quer…”
+        </blockquote>
+      </article>
+
+      <article class="music-card">
+        <small class="category">Rock Nacional</small>
+        <h3 class="song">Tempo Perdido</h3>
+        <p class="artist">Legião Urbana</p>
+        <blockquote class="lyrics">
+          “Somos tão jovens…”
+        </blockquote>
+      </article>
+
+      <article class="music-card">
+        <small class="category">MPB</small>
+        <h3 class="song">Oração ao Tempo</h3>
+        <p class="artist">Caetano Veloso</p>
+        <blockquote class="lyrics">
+          “És um senhor tão bonito…”
+        </blockquote>
+      </article>
+
+      <article class="music-card">
+        <small class="category">Indie</small>
+        <h3 class="song">Do I Wanna Know?</h3>
+        <p class="artist">Arctic Monkeys</p>
+        <blockquote class="lyrics">
+          “Have you got colour in your cheeks?”
+        </blockquote>
+      </article>
+
+    </section>
+
+    <section class="actions">
+      <button class="contrast">🔄 Novo Cartão</button>
+    </section>
+  </main>
+
 </body>
 </html>
