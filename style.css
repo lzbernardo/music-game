@@ -1,0 +1,50 @@
+/* Mobile-first customizations */
+
+.site-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.site-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.music-card {
+  padding: 1rem;
+}
+
+.music-card .category {
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.music-card .song {
+  margin: 0.25rem 0;
+}
+
+.music-card .artist {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.music-card .lyrics {
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+.actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.actions button {
+  width: 100%;
+}
