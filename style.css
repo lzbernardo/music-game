@@ -64,11 +64,11 @@ body {
 .cards-grid {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 2vh 3vw;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2vh;
 
-  min-height: 0; /* evita overflow em flex */
+  min-height: 0;
 }
 
 /* =========================
